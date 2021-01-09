@@ -1,0 +1,699 @@
+<html>
+    <head> 
+      <style>
+#youtubecontainerdiv{
+	/* margin-top: -3%; */
+	height: 40%;
+	/* width: 116%; */
+	
+	/* margin-left:-8%; */
+	background-color: black;
+}
+ul{list-style-type:disc;}
+.theorem{
+	background-color: lightblue;
+	border: 1px solid darkblue;
+	padding: 2%;
+	margin:1%;
+}
+.divexample{
+	position: relative;
+	background-color: #f7f7f7;
+	border: 1px solid red;
+	padding: 2%;
+	margin:1%;	
+} 
+#youtubecontainerdivenlarged{
+	position: absolute;
+	width: 100%;	
+}
+#topicdiv{
+	font-size:34px; font-family: OpenSans-Light, OpenSans, Arial, sans-serif; 
+}
+#youtubeframe{
+	position: absolute;
+	top: 0%;
+	height: 100%;
+	width:100% ;
+}
+#MiniContent{
+	padding: 3%;
+    color: #373A3C;
+    font-size: 15px;
+    font-family:'OpenSans',Arial,sans-serif;
+}
+#topicdiv{
+	padding:0px 0px 0px 10px;
+	border-bottom: 1px solid gray;
+	font-size:34px; font-family: OpenSans-Light, OpenSans, Arial, sans-serif;
+	margin-top:15px;
+}
+.topicdiv1{
+	padding:0px 0px 0px 10px;
+	border-bottom: 1px solid gray;
+	font-size:28px; font-family: OpenSans-Light, OpenSans, Arial, sans-serif;
+	margin-top:15px;
+
+}
+#MainContent {
+	font-family: 'Roboto', sans-serif;
+	padding:2% 5% 4% 5%;
+	font-size: 17px;
+	position: absolute;
+	left:245px;
+	height:100%;
+	overflow:scroll;
+	right:0%;
+}
+
+#MainContentEnlarged{
+	position:absolute;
+	width:100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding:2%;
+	overflow:scroll;
+	height:100%;
+
+}
+@media screen and (min-width: 900px){
+
+#LeftDiv{
+	width:245px;
+	position:absolute;
+	background-color:;
+	height:100%;
+	bottom:0%;
+	overflow:scroll;
+}
+.YouTubeSolution{height:70%;}
+}
+.LeftMenuListItemText{text-align:center;}
+@media screen and (max-width: 900px){
+	#LeftMiniContent{font-size:15px;}
+	#LeftDiv{
+	width:245px;
+	position:absolute;
+	background-color:white;
+	height:100%;
+	bottom:0%;
+	overflow:scroll;
+}
+
+#MainContent{font-size:;}
+}
+@media screen and (max-width:800px){
+	ul{position: relative;width:90%;left:5%}
+	#LeftMiniContent{font-size:20px;}
+	.LeftMenuListItemText{font-size:15px;text-align:center;}
+#MainContent{font-size: ;}
+}
+@media screen and (min-width: 700px){
+	#Main{height:90%;}
+	#TopHeader{height:10%;}
+}
+@media screen and (max-width: 700px) {
+	#youtubecontainerdiv{	width: 104%;
+		height: 60%;
+		margin-left:-2%;}
+	#LeftMiniContent{font-size:25px;}
+	.LeftMenuListItemText{font-size:25px;text-align:center;}
+  #MainContent {
+  position:static;
+  width: 100%;
+  margin: 1px 1px 1px; padding:2%; font-size: ;
+  order:1;
+  }
+  #MainContentEnlarged{font-size: 25px;}
+ #Main{position:relative}
+ #TopHeader{height:8%;position:fixed;}
+  #BigContent{font-size: 25px;}
+  #LeftDiv{width:245px;
+	background-color:white;
+	display:hidden;
+	bottom:0%;
+	overflow:scroll;
+	order:2;}
+	#Footer{margin:-2%;}
+} 
+#TopHeader{
+	position:relative;
+	background-color:;
+	/* height:10%; */
+	border-bottom:1px solid gray;
+}
+#Main{
+	position:relative;
+	
+	bottom:0%;
+	
+}
+
+#Footer{
+	border-top:1px solid gray;
+	position:relative;
+	text-align:center;	
+}
+#LeftDiv{
+	z-index:1;
+}
+#GreySpace{
+	z-index: 1;
+	position: absolute;
+	z-index:1;
+	display: none;
+	height:100%;
+	left: 245px;
+	opacity:0.5;
+	right: 0px;
+	background-image: linear-gradient(to right, black 0%, gray 5%, lightgray 100%);
+	text-align: center;
+	font-size: 0.1px;
+}
+@media screen and (max-width:700px){
+	#GreySpace{display:block;}
+	
+#topicdivm{
+	font-size:20px; font-family: OpenSans-Light, OpenSans, Arial, sans-serif; border-bottom: 0.5px solid lightgray; margin-bottom: 10px;
+}
+}
+#topicdivm{
+	font-size:30px; font-family: OpenSans-Light, OpenSans, Arial, sans-serif; border-bottom: 0.5px solid lightgray; margin-bottom: 10px;
+}
+#HeaderLogo{display:relative;
+	width:40%;
+}
+
+#HeaderLogoImage{
+	border:1px solid black;
+	position:absolute;
+	height:100%;
+
+}
+
+#HeaderLogoText{
+	border:1px solid black;
+	align-items:center;
+	position:relative;
+	height:100%;
+	text-align: center;
+	font-family:'Roboto';
+	margin-left:1%;
+}
+#LeftMiniContent{
+	text-align:center;
+	margin:5%;
+	position:relative;
+	
+	font-family:'Roboto';
+}
+.BlackHR{
+	border:1px solid black;
+}
+#LeftMenu{
+	position:relative;
+	
+	
+}
+
+
+#TopHeaderSVG{
+	position:absolute;
+	justify-content:center;
+	top:5%;
+	height:90%;
+	width:40%;
+	left:30%;
+}
+#TopHeaderSVG:hover{
+	border:1px;
+}
+#LeftMenuButton {
+  position:absolute;
+  height:90%;
+  top:5%;
+  left:5px;
+
+  
+}
+#DownloadButton{
+	position:absolute;
+	height:90%;
+	top:5%;
+	right:5px;	
+}
+.QuestionText{background-color:gray; padding:2%}
+.SolutionText{padding:2%;}
+#LeftMenuButton:hover{
+	  border:1px solid gray;
+  border-radius:2px;
+  cursor:pointer;
+}
+#LeftMenuButton{
+	border:1px solid black;
+	border-radius:2px;
+}
+
+#MainContentEnlarged,#LeftDiv,#MainContent,body{
+	overflow-x:hidden;
+	
+}
+
+body::-webkit-scrollbar{
+	width:0;
+}
+.overflowdiv{overflow-x:auto;}
+.overflowdiv::-webkit-scrollbar{width: 0.02px;}
+#LeftDiv::-webkit-scrollbar,#MainContent::-webkit-scrollbar,#MainContentEnlarged::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+.overflowdiv::-webkit-scrollbar-track,#LeftDiv::-webkit-scrollbar-track,#MainContent::-webkit-scrollbar-track,#MainContentEnlarged::-webkit-scrollbar-track,body::-webkit-scrollbar-track {
+  box-shadow: ;
+}
+ 
+.overflowdiv::-webkit-scrollbar-thumb,#LeftDiv::-webkit-scrollbar-thumb,#MainContent::-webkit-scrollbar-thumb,#MainContentEnlarged::-webkit-scrollbar-thumb,body::-webkit-scrollbar-thumb {
+  background-color:red;
+}
+
+.LessonHead{
+    cursor: pointer;
+    width: 240px;
+    /* height: 32px; */
+    padding: 6px 24px;
+    color:#000000DE;
+    font-size: 14px;
+	font-family:OpenSans,Arial,sans-serif;
+	border-bottom: 0.5px solid grey;
+}
+.CurrentLessonItem{
+    width: 240px;
+    padding: 8px 24px 8px 18px;
+	position: relative;
+	background-color: #FFFF66;
+}
+.LessonItem{
+    width: 240px;
+    padding: 8px 24px 8px 18px;
+    position: relative;
+}
+.LessonItem:hover{
+    background: #FFFF66;
+}
+.LessonItemIconContainer{
+    position: relative;
+    width:32px;
+
+}
+.LessonItemIcon{
+    position: absolute;
+    width:20px;
+    height:20px;
+}
+.LessonItemTextContainer{
+    position: relative;
+    left:32px;
+    width:160px;
+    background-color:;
+}
+.LessonItemText{
+    color: #373A3C;
+    font-size: 12px;
+    font-family:'OpenSans',Arial,sans-serif;
+}
+.LessonItemSubText{
+    margin:2px 0px 0px;
+    color: #6B6B6B;
+    font-size: 12px;
+    font-family:'OpenSans',Arial,sans-serif;
+}
+.LessonProgress{
+    width:50%;
+    height:5px;
+    background-color: red;
+    position: relative;
+}
+
+
+
+      </style>
+    <script type="text/javascript" id="MathJax-script" async
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+   </script>
+     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <title>Introduction to Binomial Theorem</title>
+     <link rel = "icon" href = "https://dinalearn.dinaacademy.org/LOGO.png" type = "image/x-icon"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="Binomial Theorem, Binomial Theorem Proof, , Dina Academy, Mathematics">
+     <meta name="description" content="How do we expand large powers of binomials such as (1+x)^100? Learn this and several amazing things on DinaAcademy. You Can Learn Anything!">
+     <link rel="stylesheet" href="dinastyle.css">
+     <link rel="stylesheet" media="print" href="dinaprintstyle.css">
+   <script>
+          function ToggleMenuShow(j){
+    var menuj = document.getElementById("Menu"+j);
+    if(menuj.style.display==="none"){
+        menuj.style.display="block";
+    }
+    else{
+        menuj.style.display="none";
+    }
+}
+   function BodyLoadFunction(){
+   if(window.innerWidth<700){LeftMenuButtonClick();}
+   document.getElementById("LeftMenuButton").style.transform='rotate(0deg)';
+   }
+   function LeftMenuButtonClick(){
+    var menudiv=document.getElementById("LeftDiv");
+    var maincontent=document.getElementById("MainContent");
+    if(window.innerWidth<700){
+    if(menudiv.style.display==="none"){
+       menudiv.style.display="block";
+       document.getElementById("GreySpace").style.display="block";
+      //  maincontent.style.display="none";
+       document.getElementById("LeftMenuButton").style.transform='rotate(0deg)';
+
+    } else{
+       menudiv.style.display="none";
+       document.getElementById("GreySpace").style.display="none";
+       maincontent.style.display="block";
+       document.getElementById("LeftMenuButton").style.transform='rotate(0deg)';
+    }}
+    else{
+    if(menudiv.style.display==="none"){
+    menudiv.style.display="block";
+    document.getElementById("MainContentEnlarged").id="MainContent";
+    document.getElementById("youtubecontainerdiv").style.marginLeft="-7%";
+    document.getElementById("youtubecontainerdiv").style.marginTop="-3%";
+    document.getElementById("youtubecontainerdiv").style.width="114%";
+    document.getElementById("LeftMenuButton").style.border='1px solid black';
+    }
+    else{
+      menudiv.style.display="none";
+      maincontent.id="MainContentEnlarged";
+    document.getElementById("youtubecontainerdiv").style.marginLeft="-2%";
+    document.getElementById("youtubecontainerdiv").style.marginTop="-2%";
+    document.getElementById("youtubecontainerdiv").style.width="104%";
+    document.getElementById("LeftMenuButton").style.border='2px solid black';
+    }
+    }
+   }
+
+
+   function scrollMain(){
+   }
+
+   </script>
+   </head>
+   
+   <body onload="BodyLoadFunction()" onresize="BodyLoadFunction()">
+   
+       <div id="TopHeader">
+        <svg id="LeftMenuButton" onclick="LeftMenuButtonClick()" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" width="50" height="50"><defs><path d="M43.26 9.06C44.22 9.06 45 9.84 45 10.8C45 11.85 45 13.24 45 14.29C45 15.25 44.22 16.03 43.26 16.03C35.61 16.03 14.39 16.03 6.74 16.03C5.78 16.03 5 15.25 5 14.29C5 13.24 5 11.85 5 10.8C5 9.84 5.78 9.06 6.74 9.06C14.39 9.06 35.61 9.06 43.26 9.06Z" id="g3LBB5xk7t"></path><path d="M43.26 21.22C44.22 21.22 45 22 45 22.96C45 24 45 25.4 45 26.44C45 27.4 44.22 28.18 43.26 28.18C35.61 28.18 14.39 28.18 6.74 28.18C5.78 28.18 5 27.4 5 26.44C5 25.4 5 24 5 22.96C5 22 5.78 21.22 6.74 21.22C14.39 21.22 35.61 21.22 43.26 21.22Z" id="b1LMQcAyiQ"></path><path d="M43.26 33.97C44.22 33.97 45 34.75 45 35.71C45 36.76 45 38.15 45 39.2C45 40.16 44.22 40.94 43.26 40.94C35.61 40.94 14.39 40.94 6.74 40.94C5.78 40.94 5 40.16 5 39.2C5 38.15 5 36.76 5 35.71C5 34.75 5.78 33.97 6.74 33.97C14.39 33.97 35.61 33.97 43.26 33.97Z" id="b1doCuN9CK"></path></defs><g><g><g><use xlink:href="#g3LBB5xk7t" opacity="1" fill="#000000" fill-opacity="0.67"></use></g><g><use xlink:href="#b1LMQcAyiQ" opacity="1" fill="#000000" fill-opacity="0.67"></use></g><g><use xlink:href="#b1doCuN9CK" opacity="1" fill="#000000" fill-opacity="0.67"></use></g></g></g></svg>
+           <a href="https://www.dinaacademy.org"><img id="TopHeaderSVG" src="DinaAcademySVG.svg"></a>
+           <div id="RightButtons"><a href="https://drive.google.com/u/1/uc?id=1WbwMUOUxbxj83GCLk9zKZ9ACcCvILzYT&export=download"><img id="DownloadButton" src="downloadsvg.svg"></a></div>
+       </div>
+       <div id="Main">
+       <div id="GreySpace" onclick="LeftMenuButtonClick()">Dina Academy</div>
+       <div id="LeftDiv"> 
+        <b><p id="MiniContent" style=""><a href="">Advanced Algebra</a>  >  <a href="">Binomial Theorem</a>  >  <a href="">Binomial Theorem for Positive Index</a></p></b> 
+        <hr id="BlackHR">
+           <div id="LeftMenu">
+            <div class="LessonHead" onclick="ToggleMenuShow(1)">
+              <strong>Binomial Theorem for Positive Index</strong>
+          </div>
+          <div id="Menu1">
+          <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/introduction.html"><div>
+          <div class="CurrentLessonItem">
+              <div class="LessonItemIconContainer">
+                  <div class="LessonItemIcon"><img src="booksvg.svg"></div>
+              </div>
+              <div class="LessonItemTextContainer">
+                  <div class="LessonItemText">
+                  <strong>Read: </strong>Expanding Products of Binomials
+                  </div>
+                  <div class="LessonItemSubText">
+                  15 minutes
+                  </div>
+              </div>
+          </div> 
+          </div></a>
+          <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/video-proofbinomialtheorem.html"><div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="playbuttonsvg.svg"></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Video: </strong>Proving the Binomial Theorem Using Mathematical Induction
+                    </div>
+                    <div class="LessonItemSubText">
+                    15 minutes
+                    </div>
+                </div>
+            </div> 
+          </div></a>
+          <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/proofbinomialtheorem.html"><div>
+              <div class="LessonItem">
+                  <div class="LessonItemIconContainer">
+                      <div class="LessonItemIcon"><img src="booksvg.svg"></div>
+                  </div>
+                  <div class="LessonItemTextContainer">
+                      <div class="LessonItemText">
+                      <strong>Read: </strong>Proving the Binomial Theorem Using Mathematical Induction
+                      </div>
+                      <div class="LessonItemSubText">
+                      10 minutes
+                      </div>
+                  </div>
+              </div> 
+            </div></a>
+              <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/practice-binomial1.html"><div>
+                <div class="LessonItem">
+                    <div class="LessonItemIconContainer">
+                        <div class="LessonItemIcon"><img src="practicesvg.svg"></div>
+                    </div>
+                    <div class="LessonItemTextContainer">
+                        <div class="LessonItemText">
+                        <strong>Practice: </strong>Practice the Binomial Theorem for Positive Indices
+                        </div>
+                        <div class="LessonItemSubText">
+                        25 minutes
+                        </div>
+                    </div>
+                </div> 
+              </div></a>
+          </div>  
+          <div class="LessonHead" onclick="ToggleMenuShow(2)">
+            <strong>Some Observations on the Binomial Theorem</strong>
+        </div>
+        <div id="Menu2">
+        <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/video-generalmiddleterm.html"><div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="playbuttonsvg.svg"></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Video: </strong>General and Middle Term
+                    </div>
+                    <div class="LessonItemSubText">
+                    15 minutes
+                    </div>
+                </div>
+            </div> 
+            </div></a>
+        
+        <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/generalmiddleterm.html"><div>
+        <div class="LessonItem">
+            <div class="LessonItemIconContainer">
+                <div class="LessonItemIcon"><img src="booksvg.svg"></div>
+            </div>
+            <div class="LessonItemTextContainer">
+                <div class="LessonItemText">
+                <strong>Read: </strong>General and Middle term
+                </div>
+                <div class="LessonItemSubText">
+                10 minutes
+                </div>
+            </div>
+        </div> 
+        </div></a>
+
+        <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/video-greatestterm.html"><div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="playbuttonsvg.svg"></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Video: </strong>Greatest Term
+                    </div>
+                    <div class="LessonItemSubText">
+                    15 minutes
+                    </div>
+                </div>
+            </div> 
+            </div></a>
+        <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/greatestterm.html"><div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="booksvg.svg"></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Read: </strong>The Greatest Term 
+                    </div>
+                    <div class="LessonItemSubText">
+                    15 minutes
+                    </div>
+                </div>
+            </div> 
+          </div></a>
+          <a href="https://www.dinaacademy.org/advanced-algebra/binomial-theorem/practice-binomial2.html"><div>
+              <div class="LessonItem">
+                  <div class="LessonItemIconContainer">
+                      <div class="LessonItemIcon"><img src="practicesvg.svg"></div>
+                  </div>
+                  <div class="LessonItemTextContainer">
+                      <div class="LessonItemText">
+                      <strong>Practice: </strong>Practice what you've learnt
+                      </div>
+                      <div class="LessonItemSubText">
+                      25 minutes
+                      </div>
+                  </div>
+              </div> 
+            </div></a>
+        </div>
+           </div>
+       </div>
+       <div id="MainContent" onscroll="scrollMain()">
+        <!-- <div id="youtubecontainerdiv"><iframe id="youtubeframe" src="https://www.youtube.com/embed/ZbxDBtEi6-I" frameborder="0" start="60" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> --> 
+            <div id="topicdiv" style="">Products of Binomials</div>
+       <br>
+       When we expand  \((1+x)^2\), we get  \(1+2x+x^2\). If we simplify \((1+x)^3\), we would get \(1+3x+3x^2+x^3\). But what if we needed \((a+b)^{100}\) or \((a+b)^{3/5}\)? Situations like these occur very often in science where we need to simplify an expression raised to some power. To tackle with this problem, we first begin by finding powers of binomials like \((x+y)^{10}\) and then extending to expressions like \((a+b+c+2d)^{50}\). <br><div class="topicdiv1">Getting some Ideas</div><br>
+       It may be shown by multiplication that <div class="overflowdiv">\[(x+a)(x+b)(x+c)(x+d)=x^4+(a+b+c+d)x^3+(ab+ac+ad+bc+bd+cd)x^2\] \[+(abc+abd+acd+bcd)x+abcd\]</div> We can however, write down this result by inspection. <ul><p><li>The term <span class="math inline">\(x^4\)</span> is formed by taking the letter <span class="math inline">\(x\)</span> out of each of the factors.</li><li>The terms involving <span class="math inline">\(x^3\)</span> are formed by taking the letter <span class="math inline">\(x\)</span> out of any three factors, in every way possible, and one of the letters <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(c\)</span>, <span class="math inline">\(d\)</span> out of the remaining factor.</li> <li>The terms involving <span class="math inline">\(x^2\)</span> are formed by taking the letter <span class="math inline">\(x\)</span> out of any two factors, in every way possible, and two of the letters <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(c\)</span>, <span class="math inline">\(d\)</span> out of the remaining factors.</li> <li>The terms involving <span class="math inline">\(x\)</span> are formed by taking the letter <span class="math inline">\(x\)</span> out of any one factor, and three of the letters <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(c\)</span>, <span class="math inline">\(d\)</span> out of the remaining factors.</li> <li>The term independent of <span class="math inline">\(x\)</span> is the product of all the letters <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(c\)</span>, <span class="math inline">\(d\)</span>.</p></li></ul> 
+       <br><div class="topicdiv1">Applying the Ideas</div><br>
+       <p>Now if we were to multiply <span class="math display">\[(x+a_1)(x+a_2)(x+a_3)\cdots(x+a_{n-1})(x+a_n)\]</span></p>
+       <ul style="list-style-type:disc;">
+        <li><p>The highest power of <span class="math inline">\(x\)</span> is <span class="math inline">\(x^n\)</span> , and is formed by taking the letter <span class="math inline">\(x\)</span> from each of the <span class="math inline">\(n\)</span> factors.</p></li>
+        <li><p>The terms involving <span class="math inline">\(x^{n-1}\)</span> are formed by taking the letter <span class="math inline">\(x\)</span> from any <span class="math inline">\(n-1\)</span> of the factors, and <strong>one</strong> of the letters <span class="math inline">\(a_1,a_2,\dots,a_n\)</span> from the remaining factor; thus the coefficient of <span class="math inline">\(x^{n-1}\)</span> in the final product is the sum of the letters <span class="math inline">\(a_1,a_2,\dots,a_n\)</span>; denote it by <span class="math inline">\(\color{red}{S_1}\)</span>.</p></li>
+        <li><p>The terms involving <span class="math inline">\(x^{n-2}\)</span> are formed by taking the letter <span class="math inline">\(x\)</span> from any <span class="math inline">\(n-2\)</span> of the factors, and <strong>two</strong> of the letters <span class="math inline">\(a_1,a_2,\dots,a_n\)</span> from the two remaining factors; thus the coefficient of <span class="math inline">\(x^{n-2}\)</span> in the final product is the sum of the product of the letters <span class="math inline">\(a_1,a_2,\dots,a_n\)</span> taken two at a time; denote it by <span class="math inline">\(\color{blue}{S_2}\)</span>.</p></li>
+        <li><p>And generally, the terms involving <span class="math inline">\(x^{n-r}\)</span> are formed by taking the letter <span class="math inline">\(x\)</span> from any <span class="math inline">\(n-r\)</span> of the factors, and <strong>r</strong> of the letters <span class="math inline">\(a_1,a_2,\dots,a_n\)</span> from the <span class="math inline">\(r\)</span> remaining factors; thus the coefficient of <span class="math inline">\(x^{n-r}\)</span> in the final product is the sum of the product of the letters <span class="math inline">\(a_1,a_2,\dots,a_n\)</span> taken <span class="math inline">\(r\)</span> at a time; denote it by <span class="math inline">\(\color{green}{S_r}\)</span>.</p></li>
+        </ul>
+        For example, multiplying \((x+1)\), \((x+2)\) and \((x+3)\) would get us <div class="overflowdiv">\[((x+1)(x+2)(x+3)=x^3+(1+2+3)x^2+(1\times2+1\times3+2\times3)x+(1\times2\times3)=x^3+6x^2+11x+6\]</div>
+        <p>In <span class="math inline">\(\color{red}{S_1}\)</span> the number of terms is <span class="math inline">\(\color{red}{n}\)</span>; in <span class="math inline">\(\color{blue}{S_2}\)</span> the number of terms is the same as the number of combinations of <span class="math inline">\(n\)</span> thing taken <span class="math inline">\(2\)</span> at a time; that is, <span class="math inline">\(\color{blue}{^nC_2}\)</span>; in <span class="math inline">\(\color{brown}{S_3}\)</span> the number of terms is <span class="math inline">\(\color{brown}{^nC_3}\)</span>; and so on. Now suppose <span class="math inline">\(a_1=a_2=\dots=a_n=a\)</span>, then <span class="math inline">\(\color{red}{S_1}\)</span> becomes <span class="math inline">\(\color{red}{^nC_1 a}\)</span>;<span class="math inline">\(\color{blue}{S_2}\)</span> becomes <span class="math inline">\(\color{blue}{^nC_2 a^2}\)</span>;<span class="math inline">\(\dots\)</span>; <span class="math inline">\(\color{green}{S_r}\)</span> becomes <span class="math inline">\(\color{green}{^nC_r a^r}\)</span> and so on. We thus obtain <div class="overflowdiv">\[(x+a)^n=x^n+^nC_1ax^{n-1}+^nC_2a^2x^{n-2}+\dots+^nC_na^n\]</div> For example, <div class="overflowdiv">\[(x+y)^4=x^4+\dfrac{4!}{3!}x^3y+\dfrac{4!}{2!2!}x^2y^2+\dfrac{4!}{3!}xy^3+y^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4\]</div></p>
+        <div class="theorem"><p>For <span class="math inline">\(n\in\mathbb{N}\)</span> <div class="overflowdiv">\[(x+a)^n=x^n+^nC_1ax^{n-1}+^nC_2a^2x^{n-2}+\dots+^nC_ra^rx^{n-r}+\dots+^nC_na^n\]</div> where <span class="math inline">\(^nC_i\)</span> denotes the number of possible selections of <span class="math inline">\(i\)</span> objects out of <span class="math inline">\(n\)</span> distinct objects.</p></div>
+<div class="theorem"><p>If <span class="math inline">\(m\in\mathbb{N}\)</span> the expansion of <span class="math inline">\((1+x)^m\)</span> is given by <div class="overflowdiv">\[(1+x)^m=1+mx+\dfrac{m(m-1)}{1\cdot2}x^2+\dfrac{m(m-1)(m-2)}{1\cdot2\cdot3}x^3+\dots+x^m\]</div></p></div>
+Let's try a simple problem
+<div class="divexample"><p><strong>Write the first four terms of <span class="math inline">\(\left(1-\dfrac{2y^2}{3}\right)^6\)</span></strong></p>
+<p><strong>Answer: </strong><div class="overflowdiv"><span class="math inline">\(^6C_0\)</span>, <span class="math inline">\(^6C_1\left(\dfrac{-2y^2}{3}\right)\)</span>, <span class="math inline">\(^6C_2\left(\dfrac{-2y^2}{3}\right)^2\)</span>, <span class="math inline">\(^6C_3\left(\dfrac{-2y^2}{3}\right)^3,\)</span> i.e., <span class="math inline">\(1\)</span>, <span class="math inline">\(\dfrac{-12y^2}{3}\)</span>, <span class="math inline">\(\dfrac{60y^4}{9}\)</span>, <span class="math inline">\(\dfrac{-160y^6}{27}\)</span></p></div></div>
+        Before we start solving problems, it would be a good idea to rigorously prove the binomial theorem.<br><br>
+        <footer class="text-gray-700 body-font" id="Footer">
+          <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <img class="h-20 w-20 object-cover" src="https://calculus.dinaacademy.org/DinaCalculus_Logo.svg">
+                <b><span class="ml-3 text-xl" style="font-family:Roboto">Dina Academy</span></b>
+              </a>
+              <br>
+              <b><p class="mt-1 font-big text-gray-900" style="text-align:center;font-family:Roboto">You can learn anything!</p>
+            </b></div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">LEARN ADVANCED ALGEBRA</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">GET THE BOOK</a>
+                  </li>
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">Complex Numbers</a>
+                  </li>
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">Matrices & Determinants</a>
+                  </li>
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">Linear Algebra</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">DINA ACADEMY</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">DinaAcademy Home</a>
+                  </li>
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">Advanced Algebra Homepage</a>
+                  </li>
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">DinaAcademy Community</a>
+                  </li>
+                  <li>
+                    <a href=" " class="text-gray-600 hover:text-gray-800">DinaCalculus Home</a>
+                  </li>
+                </nav>
+              </div>
+              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">DINATECH</h2>
+                <nav class="list-none mb-10">
+                  <li>
+                    <a href="mailto:tech.dina@gmail.com"class="text-gray-600 hover:text-gray-800">Email DinaBot</a>
+                  </li>
+                  <li> 
+                    <a href=" " class="text-gray-600 hover:text-gray-800">Get Android App</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Volunteer @Dina</a>
+                  </li>
+                  <li>
+                    <a class="text-gray-600 hover:text-gray-800">Why Dina?</a>
+                  </li>
+                </nav>
+              </div>
+        
+            </div>
+          </div>
+          <div class="bg-gray-200">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+              <p class="text-gray-500 text-sm text-center sm:text-left"> @ 2020 Dina Academy -
+                <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">Creative Commons - CC BY 4.0</a>
+              </p>
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                <a class="text-gray-500" href="https://www.facebook.com/Dina-Academy-105709324649847">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-50 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500" href="https://www.linkedin.com/company/dina-academy">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </footer>
+   </div>
+   </div>
+   <script>
+     window.onresize=reload();
+  </script>
+
+   </body>
+   </html>
